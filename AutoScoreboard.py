@@ -138,28 +138,8 @@ def calculate(*args):
 		get_stats()
 	except ValueError:
 		pass
-#
 
-'''
-root = Tk()
-root.title("Introduce token")
-mainframe = ttk.Frame(root, padding="3 3 12 12")
-mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
-mainframe.columnconfigure(0, weight=1)
-mainframe.rowconfigure(0, weight=1)
-feet = StringVar()
-meters = StringVar()
-feet_entry = ttk.Entry(mainframe, width=7, textvariable=feet)
-feet_entry.grid(column=2, row=1, sticky=(W, E))
-ttk.Label(mainframe, textvariable=meters).grid(column=2, row=2, sticky=(W, E))
-ttk.Button(mainframe, text="Aceptar", command=calculate).grid(column=3, row=3, sticky=W)
-ttk.Label(mainframe, text="token").grid(column=1, row=1, sticky=W)
-for child in mainframe.winfo_children(): child.grid_configure(padx=5, pady=5)
-feet_entry.focus()
-root.bind('<Return>', calculate)
-root.mainloop()
-#aqui empieza la ejecucion del codigo 
-'''
+
 print 'Iniciando ejecucion'
 token_generation = gis_token_generator.GISTokenGenerator("", "")
 access_token=token_generation.generate_token()
