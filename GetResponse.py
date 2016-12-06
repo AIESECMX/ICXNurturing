@@ -8,7 +8,7 @@ class GetResponse(object):
 	def __init__(self):
 		super(GetResponse, self).__init__()
 		self.url ='https://api3.getresponse360.com/v3'
-		self.gr_id='api-key edd91283845856ad6863a3ee76a421c9'
+		self.gr_id='api-key '
 		self.gr_api_domain = 'aiesec.getresponse360.com'
 		
 

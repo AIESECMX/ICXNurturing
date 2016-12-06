@@ -12,7 +12,7 @@ def getApps():
 	now = datetime.datetime.now()
 	end_date = now.strftime('%y-%m-%d')
 	params = {
-	"access_token" : getToken("enrique.suarez@aiesec.net","si no leo me aburro") ,
+	"access_token" : getToken("","") ,
 	"filters[opportunity_committee]" : 1589,
 	"filters[status]": "rejected",
 	"filters[last_interaction][from]" :now.strftime('%y-%m-%d'),
