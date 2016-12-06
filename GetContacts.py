@@ -1,6 +1,7 @@
 import datetime
 import requests
-
+from Opp import Opp
+from Person import Person
 
 
 
@@ -44,6 +45,7 @@ def getToken (user, passw):
 
 #Status - Open - iGV
 def sendOpenIGV(ep, opp,opp1,opp2,opp3):
+	
 	return None
 
 #Status - Open - iGT
@@ -67,7 +69,7 @@ def sendRejectediGT(ep, opp,opp1,opp2,opp3):
 def sendRejectediGE(ep, opp,opp1,opp2,opp3):
 	return None
 
-sendRejectediGE(ep= ugdugfs, opp2 = usydgfugys)
+
 
 #Get Response
 #Get Response

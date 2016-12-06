@@ -3,7 +3,7 @@ class Opp(object):
 	def __init__(self, name, city,sdg,coverPhoto,url,expaId, background):
 		super(Opp, self).__init__()
 		self.name=name 
-		self.=city
+		self.city=city
 		self.sdg=sdg
 		self.coverPhoto=coverPhoto
 		self.url=url
